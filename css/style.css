@@ -107,7 +107,7 @@ body
     border: 0px solid;
     position: absolute;
     top: 110%;
-    right: 2rem;
+    right: -110%;
     width: 50rem;
     height: 5rem;
     background: #fff;
@@ -117,6 +117,13 @@ body
     align-items: center;
     box-shadow: var(--box-shadow);
 }
+
+.header .search-form.active
+{
+    right: 2rem;
+    transition: .4s linear;
+}
+
 
 .header .search-form input 
 {
