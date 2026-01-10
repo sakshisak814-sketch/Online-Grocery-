@@ -11,6 +11,12 @@
  <link rel="stylesheet" type="text/css" href="css/style.css">
 <!--code from linking css file-->
 
+
+
+<link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
  </head>
@@ -24,9 +30,9 @@
 
 <nav class="navbar">
     <a href="#home"> home</a>
-    <a href="#feature"> feature</a>
+    <a href="#features"> features</a>
     <a href="#products"> products</a>
-    <a href="#categories"> categories</a>
+    <a href="#categories"> Categories</a>
     <a href="#review"> review</a>
     <a href="#blogs"> blogs</a>           
 </nav>
@@ -45,7 +51,6 @@
     ...>
     <label for="search-box" class="fa fa-search"></label>
 </form>
-
 
 <div class="shopping-cart">
     <div class="box">
@@ -97,6 +102,7 @@
 
     <input type="submit" value="login Now" class="btn">
 </form>
+
 
 
 </header>
@@ -159,10 +165,10 @@
 <section class="products" id="products">
     <h1 class="headling"> our <span >Products</span></h1>
 
-    <div class="product-slider">
+    <div class=" swiper product-slider">
 
-        <div class="wrapper">
-            <div class="box">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
             <img src="image/product-1.png" >
             <h3> Fresh orange </h3>
             <div class="Price">₹50kg</div>
@@ -177,7 +183,7 @@
             </div>
 
 
-        <div class="box">
+        <div class="swiper-slide box">
             <img src="image/product-2.png" >
             <h3> Fresh onion </h3>
             <div class="Price">₹30-₹50kg</div>
@@ -192,7 +198,7 @@
             </div>
 
 
-         <div class="box">
+         <div class="swiper-slide box">
             <img src="image/product-3.png" >
             <h3> Fresh meat </h3>
             <div class="Price">₹200kg</div>
@@ -207,7 +213,7 @@
             </div>
 
 
-         <div class="box">
+         <div class="swiper-slide box">
             <img src="image/product-4.png" >
             <h3> Fresh Cabbage </h3>
             <div class="Price">₹20-₹30kg</div>
@@ -229,13 +235,13 @@
 
 
 
-    <div class="product-slider">
+    <div class="swiper product-slider">
 
-        <div class="wrapper">
-            <div class="box">
-            <img src="image/product-1.png" >
-            <h3> Fresh orange </h3>
-            <div class="Price">₹50kg</div>
+        <div class="swiper-wrapper">
+            <div class=" swiper-slide box">
+            <img src="image/product-5.png" >
+            <h3> Fresh Patato </h3>
+            <div class="Price">₹40 per kg</div>
             <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -247,10 +253,10 @@
             </div>
 
 
-        <div class="box">
-            <img src="image/product-2.png" >
-            <h3> Fresh onion </h3>
-            <div class="Price">₹30-₹50kg</div>
+        <div class="swiper-slide box">
+            <img src="image/product-6.png" >
+            <h3> Fresh Avocado </h3>
+            <div class="Price">₹100/- 1pc</div>
             <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -262,10 +268,10 @@
             </div>
 
 
-         <div class="box">
-            <img src="image/product-3.png" >
-            <h3> Fresh meat </h3>
-            <div class="Price">₹200kg</div>
+         <div class=" swiper-slide box">
+            <img src="image/product-7.png" >
+            <h3> Fresh Carrot </h3>
+            <div class="Price">₹20-40perkg</div>
             <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -277,10 +283,10 @@
             </div>
 
 
-         <div class="box">
-            <img src="image/product-4.png" >
-            <h3> Fresh Cabbage </h3>
-            <div class="Price">₹20-₹30kg</div>
+         <div class= "swiper-slide box">
+            <img src="image/product-8.png" >
+            <h3> Fresh Lemon </h3>
+            <div class="Price">₹10-₹20perkg</div>
             <div class="stars">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -290,6 +296,7 @@
             </div>
              <a href=""class="btn">Add to cart</a>
             </div>
+
 
 
         </div>
@@ -298,6 +305,111 @@
 </section>
 <!--our products section -->
 
+
+
+<!--our Categories section -->
+<section class="categories" id="categories">
+    <h1 class="headling"> product <span>categories</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+        <img src="image/cat-1.png">
+        <h3>Vegetables</h3>
+        <p>Upto 45% off</p>
+        <a href="#" class="btn"> Shop Now</a>
+        </div>
+
+        <div class="box">
+        <img src="image/cat-2.png">
+        <h3>Fresh Fruits</h3>
+        <p>Upto 45% off</p>
+        <a href="#" class="btn"> Shop Now</a>
+        </div>
+
+        <div class="box">
+        <img src="image/cat-3.png">
+        <h3>Dairy Products</h3>
+        <p>Upto 45% off</p>
+        <a href="#" class="btn"> Shop Now</a>
+        </div>
+
+        <div class="box">
+        <img src="image/cat-4.png">
+        <h3>Fresh Meat</h3>
+        <p>Upto 45% off</p>
+        <a href="#" class="btn"> Shop Now</a>
+        </div>
+    </div>
+</section>
+<!--our Categories section -->
+
+
+
+
+<!--Review section -->
+<section class="review" id="review">
+    <h1 class="headling"> Customer's <span>Review</span></h1>
+
+    <div class=" swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png">
+                <p>Very smooth shopping experience! The website is easy to use, prices are reasonable, and the delivery was right on time. All items were fresh and well packed.</p>
+                <h3>Ethan Clark</h3>
+                <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png">
+                <p>I'm really impressed with the quality of fruits and vegetables. Everything was fresh and hygienically packed. Customer support was also quick to respond.</p>
+                <h3>Sophia Martinez</h3>
+                <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png">
+                <p>This online grocery site saves a lot of time. Wide variety of products, good discounts, and fast delivery. Definitely recommended for daily grocery needs.</p>
+                <h3>Daniel Wilson</h3>
+                <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png">
+                <p>Great experience overall. Easy ordering, secure payment, and fresh groceries delivered to my doorstep. I will surely order again.</p>
+                <h3>Olivia Anderson</h3>
+                <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Review section -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
 <script src="js/script.js"></script>
 
